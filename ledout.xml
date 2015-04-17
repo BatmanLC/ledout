@@ -17,7 +17,7 @@
             <field name="TEXT">Cupid shuffle </field>
             <next>
               <block type="led_select" id="36" inline="true">
-                <field name="ACTION">ON</field>
+                <field name="ACTION">OFF</field>
                 <value name="LED">
                   <block type="math_number" id="174">
                     <field name="NUM">0</field>
@@ -32,7 +32,7 @@
                     </value>
                     <next>
                       <block type="led_select" id="60" inline="true">
-                        <field name="ACTION">ON</field>
+                        <field name="ACTION">OFF</field>
                         <value name="LED">
                           <block type="math_number" id="160">
                             <field name="NUM">1</field>
@@ -47,7 +47,7 @@
                             </value>
                             <next>
                               <block type="led_select" id="75" inline="true">
-                                <field name="ACTION">ON</field>
+                                <field name="ACTION">OFF</field>
                                 <value name="LED">
                                   <block type="math_number" id="118">
                                     <field name="NUM">2</field>
@@ -62,7 +62,7 @@
                                     </value>
                                     <next>
                                       <block type="led_select" id="51" inline="true">
-                                        <field name="ACTION">ON</field>
+                                        <field name="ACTION">OFF</field>
                                         <value name="LED">
                                           <block type="math_number" id="125">
                                             <field name="NUM">3</field>
@@ -77,7 +77,7 @@
                                             </value>
                                             <next>
                                               <block type="led_select" id="93" inline="true">
-                                                <field name="ACTION">ON</field>
+                                                <field name="ACTION">OFF</field>
                                                 <value name="LED">
                                                   <block type="math_number" id="132">
                                                     <field name="NUM">4</field>
@@ -92,7 +92,7 @@
                                                     </value>
                                                     <next>
                                                       <block type="led_select" id="193" inline="true">
-                                                        <field name="ACTION">ON</field>
+                                                        <field name="ACTION">OFF</field>
                                                         <value name="LED">
                                                           <block type="math_number" id="200">
                                                             <field name="NUM">5</field>

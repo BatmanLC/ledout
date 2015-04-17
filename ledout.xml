@@ -1,1 +1,114 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_select" id="36" inline="true" x="229" y="40">
+    <field name="ACTION">FLASH</field>
+    <value name="LED">
+      <block type="math_number" id="174">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="robot_delay" id="184" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="167">
+            <field name="NUM">200</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="60" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="160">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block type="robot_delay" id="176" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="146">
+                    <field name="NUM">200</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_select" id="75" inline="true">
+                    <field name="ACTION">FLASH</field>
+                    <value name="LED">
+                      <block type="math_number" id="118">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="robot_delay" id="180" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="153">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="led_select" id="51" inline="true">
+                            <field name="ACTION">FLASH</field>
+                            <value name="LED">
+                              <block type="math_number" id="125">
+                                <field name="NUM">3</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="robot_delay" id="182" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="111">
+                                    <field name="NUM">200</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="led_select" id="93" inline="true">
+                                    <field name="ACTION">FLASH</field>
+                                    <value name="LED">
+                                      <block type="math_number" id="132">
+                                        <field name="NUM">4</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="robot_delay" id="178" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="139">
+                                            <field name="NUM">200</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="led_select" id="193" inline="true">
+                                            <field name="ACTION">FLASH</field>
+                                            <value name="LED">
+                                              <block type="math_number" id="200">
+                                                <field name="NUM">5</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="robot_delay" id="202" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="math_number" id="210">
+                                                    <field name="NUM">200</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
